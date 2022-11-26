@@ -1,0 +1,32 @@
+{
+  "name": "teachers-portal-server",
+  "version": "1.0.0",
+  "description": "A portal for teachers to edit student details. Implemented using MERN stack.",
+  "main": "server.js",
+  "scripts": {
+    "project-install": "npm install && cd client && npm install && cd .. && cd server && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "login",
+    "registration",
+    "authentication",
+    "authorization",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "lily",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
